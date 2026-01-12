@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+
+# Spotlight / Trash (should not normally appear in repos, but ignore if they do)
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Xcode / Swift
+## User-specific settings (never commit)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+## Build products
+DerivedData/
+build/
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods (keep Pods/ tracked only if you intentionally commit dependencies)
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Logs
+*.log
